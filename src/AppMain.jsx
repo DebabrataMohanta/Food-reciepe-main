@@ -178,7 +178,7 @@ function App() {
         <AppNameComponent><AppIcon src="/hamburger.svg" />Find Food Recipe</AppNameComponent>
         <SearchComponent>
           <SearchIcon src="/search-icon.svg" />
-          <SearchInput placeholder='made by Namrata' value={searchQuery} onChange={onTextChange} />
+          <SearchInput placeholder='Type Food Name' value={searchQuery} onChange={onTextChange} />
         </SearchComponent>
       </Header>
       <ReciepeListContainer>
