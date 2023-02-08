@@ -26,7 +26,7 @@ const Form = props => {
             <h1>Login</h1>
             <form onSubmit={handleSubmit} noValidate>
               <div className="field">
-                <label className="label">Email Address</label>
+                <label className="label">Email</label>
                 <div className="control">
                   <input
                     autoComplete="off"
